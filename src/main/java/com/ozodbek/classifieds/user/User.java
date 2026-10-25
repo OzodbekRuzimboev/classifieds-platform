@@ -42,6 +42,7 @@ public class User {
         }
         this.name = name.trim();
     }
+
     public void changeEmail(String email) {
         if (email == null || email.isBlank()) {
             throw new IllegalArgumentException("Email cannot be null or blank.");
